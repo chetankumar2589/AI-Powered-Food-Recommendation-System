@@ -18,7 +18,7 @@ knn.fit(X.toarray())
 def recommend(ingredients):
     input_vec = vectorizer.transform([ingredients])
     distances, indices = knn.kneighbors(input_vec.toarray())
-    return recipe_df.iloc[indices[0]][['recipe_name', 'ingredients_list', 'image_url']]
+    return recipe_df.iloc[indices[0]][['recipe_name', 'ingredients_list']]
 
 # Gradio UI
 demo = gr.Interface(
