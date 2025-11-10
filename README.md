@@ -8,7 +8,7 @@ https://www.linkedin.com/posts/chetan-kumar-patruni_recommendationsystem-a-huggi
 title: Recommendationsystem,
 sdk: gradio,
 sdk_version: 5.24.0,
-app_file: app.py,
+app_file: app.py. 
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
